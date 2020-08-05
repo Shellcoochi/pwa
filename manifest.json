@@ -1,0 +1,15 @@
+{
+  "short_name": "PWA",
+  "name": "第一个PWA",
+  "icons":[
+    {
+      "src": "icon.png",
+      "size": "192*192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#fff"
+}
