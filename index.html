@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个pwa</title>
+</head>
+<body>
+    <h1>第一个pwa</h1>
+    <img src="images/network.jpg">
+</body>
+</html>
+<script type="module">
+    navigator.serviceWorker
+        .register('sw.js')
+        .then(()=>{
+            console.log("注册成功");
+        }).catch(e=>{
+            console.log("sw.js 注册失败",e)
+    })
+</script>
